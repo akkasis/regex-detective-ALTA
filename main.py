@@ -1,7 +1,7 @@
-import passes
-passes_rounds = passes.rounds
+passes_rounds = []
 
-archive_rounds = []
+import archive
+archive_rounds = archive.rounds
 
 all_rounds = passes_rounds + archive_rounds
 
